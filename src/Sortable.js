@@ -364,6 +364,7 @@ let _checkOutsideTargetEl = function (evt) {
  * @param  {Object}       [options]
  */
 function Sortable(el, options) {
+	console.log("b");
 	if (!(el && el.nodeType && el.nodeType === 1)) {
 		throw `Sortable: \`el\` must be an HTMLElement, not ${{}.toString.call(
 			el
